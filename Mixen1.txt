@@ -1,0 +1,33 @@
+public class Mixen {
+	
+	public static int getCarlot(int licinian, int neologize) {
+		int x = licinian ;
+		int y = neologize ;
+		int z;
+		if (x < y) {
+			z = x - y ;
+			if ( z < 0 ) {
+			z = z * (-1);
+			}
+			 return z =  (int) Math.round(Math.sqrt(z));
+			
+		}
+		else  {
+			return z = (int) Math.round(Math.sqrt(x * y));
+			
+		}
+	}
+
+	public static int getBloodalp(int anglesite, int tentage, int cantic) {
+		for (int i = 1; i <= 16; i++) {
+			tentage = tentage + anglesite;
+		}
+		int pittism = tentage;
+		int g = (int) Math.pow(pittism, 2);
+		if ( g > cantic) {
+			return pittism;
+		} else
+			return pittism * (-1);
+	}
+}
+
